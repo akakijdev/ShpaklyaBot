@@ -1,10 +1,10 @@
 import telebot
 from telebot import types
 
-token = "8006780027:AAGnV477CWowaB1ooypxCYyQwbre5urem8c"
+token = token
 bot = telebot.TeleBot(token)
 
-admins = ["7211699666"]
+admins = admins
 
 global count_Hello
 count_Hello = 0
@@ -215,4 +215,5 @@ def save_new_homework(message, subject):
     show_subject_keyboard(message.chat.id)
 
 """
+
 
